@@ -1,0 +1,245 @@
+.partieprofesseur{
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 85px;
+    margin-bottom: 5px;
+    height: 220px;
+    background-color: rgba(253, 253, 253, 0.056);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+.line33{
+    height: 1px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    margin-left: 30%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.442);
+}
+.partiemodule{
+    width: 98%;
+    height: 370px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+    background-color: rgba(253, 253, 253, 0.056);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+.palceproftable{
+    height: 98%;
+    margin-top: 3px;
+    margin-right: 5px;
+    width: 33%;
+}
+.line11{
+    height: 98%;
+    margin-top: 3px;
+    margin-right: 5px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.442);
+}
+.palcecherhprof{
+    height: 98%;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 65%;
+}
+.palcemodule{
+    height: 98%;
+    width: 98%;
+    margin-top: 3px;
+    margin-left: 1%;
+
+}
+
+
+
+
+
+
+
+.chespeprof{
+    width: 110%;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+.imgprof2,.infte{
+    display: inline-block;
+}
+.infte .colomn{
+    display: flex;
+}
+
+.infte h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+  
+.infte p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+ 
+  .imgprof2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.349) ;
+    border-radius: 5pc;
+    margin-left: 5px;
+  }
+  
+  .infte ul li{
+    list-style: none;
+    margin-bottom: -12px;
+  }
+  .infte .colomn h2{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.757);
+    margin-right: 10px;
+    font-style: inherit;
+  }
+  .infte .colomn p{
+    font-size: 12px;
+    color: rgba(230, 219, 219, 0.841);
+    margin-top: 10px;
+    font-style: italic;
+  }
+
+  .dragdrup{
+    width: 80px;
+    height: 30px;
+    background-color: rgba(183, 178, 178, 0.346);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.349);
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  .dragdrup:hover{
+    background-color: rgba(0, 0, 0, 0.349);
+    box-shadow: 0 0 0 2px rgba(183, 178, 178, 0.346);
+  }
+
+.form-control{
+    background-color:rgba(183, 178, 178, 0.346) ;
+    border-color: rgba(0, 0, 0, 0.075);
+    color: rgba(255, 255, 255, 0.675);
+}
+.form-control option{
+    background-color:rgba(183, 178, 178, 0.746) ;
+}
+
+
+
+#myTable{
+    width: 100%;
+    height: 100%;
+}
+.tabletitre{
+   color: rgba(240, 255, 255, 0.853);
+}
+#myTable thead{
+    height: 25px;
+}
+#myTable tbody{
+    height: 20px;
+}
+#myTable tbody tr td{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.663);
+}
+#myTable tbody tr{
+    background-color: rgba(255, 255, 255, 0.271);
+}
+.btn-primary{
+    width: 50px;
+    height: 13px;
+    background-color: rgba(0, 0, 0, 0.349);
+    box-shadow: 0 0 2px rgba(86, 85, 85, 0.3);
+    border: 2px rgba(0, 0, 0, 0.3) ;
+}
+.btn-primary:hover{
+    background-color: rgba(86, 85, 85, 0.222);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.349);
+    border: 2px rgba(86, 85, 85, 0.3) ;
+}
+
+.download-link{
+    font-size: 10px;
+    text-align: none;
+}
+
+.container{
+  width: 100%;
+}
+
+
+
+
+
+  .tableau{
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    background-color: rgba(253, 253, 253, 0.056);
+  }
+  table{
+    width:100%;
+    table-layout: fixed;
+  }
+  .tbl-header{
+    background-color: rgba(0, 254, 123, 0.733);
+    height: 40px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+   }
+  .tbl-content{
+    height:305px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 0 0 5px 5px;
+  }
+  th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .tr2 td{
+    padding: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+  }
+  .tr2 td p{
+    margin-left: 10px;
+  }
+
+  
+  ::-webkit-scrollbar {
+      width: 6px;
+  } 
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  } 
+  ::-webkit-scrollbar-thumb {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  }
+  
+  .download-link{
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  .btn-primary{
+    margin-left: 30px;
+  }

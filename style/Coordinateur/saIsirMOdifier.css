@@ -1,0 +1,440 @@
+body{
+    margin: 0;
+    display: flex;
+     flex-direction: row;
+    min-height: 100vh;
+}
+.navbarline,a.aside_generale{
+    display: inline-block;
+}
+.aside_generale{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    
+}
+/***********************************************************************************************************/
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f0ebeb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Formulaire */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    margin-right: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #0feb2c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.infoliste{
+    margin-left:-5%;
+}
+.infoliste  li{display: inline-block;
+  border:1px solid rgb(2, 1, 1);
+  margin-right: 25px;
+  padding: 10px;
+  background-color: #ecdebec9; 
+}
+ .container .ENSAH_TAG{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #ddddddc9; 
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+ }
+input{
+
+    width: 80%;
+}
+
+/********************************************************************************************************************/
+.navbarline{
+    flex: 1.25;
+    background-color:rgb(118, 153, 224); 
+}
+.article1{
+    flex:10; 
+    background-color: rgb(235, 234, 233);
+    display: flex;
+    flex-direction: column;
+}
+.footer_profil{
+    flex:1;
+    background-color:rgb(235, 234, 233);
+    padding-left: 40px  ;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.logo{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.432);
+    font-style: oblique;
+}
+.linebar{
+    height: 0.2px;
+    width: 88%;
+    margin-left: 6%;
+    background-color: rgba(68, 224, 242, 0.705);
+}
+.nabar{
+    margin-left: 6%;
+}
+.nabar ul li{
+    list-style: none;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: -18%;
+    margin-right: 6%;
+    border-radius: 5px 5px;
+    display: flex;
+}
+
+.nabar ul li:hover{
+    background-color: rgba(255, 255, 255, 0.281);
+}
+.nabar ul li div,.nabar ul li a{
+    display: inline-block;
+}
+.nabar ul li div{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+    margin-top :12px;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.nabar ul li a{
+    margin-left: 15px;
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 0.562);
+    font-size: 15px;
+    margin-top: 15px;
+    font-style:italic;
+}
+.imgAccueil{
+    background-image:url(../../iconesnv/menu.png);
+    background-size:cover;
+}
+.imgEmploi{
+    background-image:url(../../iconesnv/calendar.png);
+    background-size:cover;
+}
+.imgProfil{
+    background-image:url(../../iconesnv/user.png);
+    background-size:cover;
+}
+.imgModulenote{
+    background-image:url(../../iconesnv/note.png);
+    background-size:cover;
+}
+.imgEtudinatAbsence{
+    background-image:url(../../iconesnv/absence.png);
+    background-size:cover;
+}
+.consulter_Etudiant{
+    background-image:url(../../iconesnv/list_student.png);
+    background-size:cover;
+  }
+.imgNotifications{
+    background-image:url(../../iconesnv/notification.png);
+    background-size:cover;
+}
+.imgTeacher{
+    background-image:url(../../image/driving-instructor.png);
+    background-size:cover;
+}
+.imgFiliere{
+    background-image:url(../../image/9882858.png);
+    background-size:cover;
+}
+.imgAffectationM{
+    background-image:url(../../iconesnv/assignment.png);
+    background-size:cover;
+}
+.imgDefiniremploi{
+    background-image:url(../../iconesnv/edittime.png);
+    background-size:cover;
+}
+.imgValiderNotes{
+    background-image:url(../../iconesnv/approval.png);
+    background-size:cover;
+}
+.imgFormation{
+    background-image:url(../../iconesnv/time-manager.png);
+    background-size:cover;
+}
+.imgAfficModules{
+    background-image:url(../../image/writing.png);
+    background-size:cover;
+}
+.imgAfficProfesseurs{
+    background-image:url(../../image/9882858.png);
+    background-size:cover;
+}
+.navbarcolomne{
+    flex:1.22;
+    background-color:aliceblue;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+}
+.navbarcolomne ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+}
+.navbarcolomne ul{
+    margin-left: 4px;
+}
+
+
+.searchButton{
+    width: 45px;
+    height:40px ;
+    border:1px solid;
+    background-image:url(../../image/search.jpg);
+    background-size:cover;
+    text-align: center;
+    color:rgb(221, 228, 228);
+    border-radius: 12px;
+    cursor: pointer;
+   background-color: rgb(118, 153, 224);
+   border-radius: 0 10px 10px 0;
+}
+.search{
+    height: 30px;
+    width:340px;
+    position: relative;
+    display: flex;
+}
+.searchTerm:focus{
+    color: rgb(6, 5, 5);
+  }
+.searchTerm{
+    width: 100%;
+    border: none;
+    border-right: none;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px ;          /* 5px 0 0 5px;*/
+    outline: none;
+    color: #0d110f;
+    background-color: rgb(236, 240, 246);
+    border-top-style:none ;
+    border-bottom-style: solid white;
+}
+
+
+
+.notification {
+    width: 30px;
+    height: 30px;
+    margin: 0 30px 0 60px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    background-image:url(../../image/notification-bell.png);
+    background-size:cover;
+  }
+  .notification:hover {
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.415);
+  }
+  .notification .badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+
+
+  .lineshearch{
+    width: 250px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.468);
+  }
+
+.wrap{
+    margin-right: 35px;
+    flex:3;
+}
+.navbar_Horaizontal_column_2{
+    width: 150px;
+    height:40px ;
+    flex:2;
+    font-size: 130%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+} 
+.profili{
+    flex:1;
+}
+.notif{
+    flex:1;
+}
+
+.button_profil {
+    background-color:transparent;
+    width: 210px;
+    height:60px ;
+    border:none;
+    flex:5;
+    padding-left:2px;
+}
+  
+.button_profil .name{
+    color:black;
+      padding-top:10%;
+      font-size: 20px;
+      margin-right: 10px;
+ }
+ .but-profi{
+    width: 30px;
+    height: 30px;
+    background:none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    background-image:url(../../image/user.png);
+    background-size:cover;
+    margin: 0 0 0 25px;
+    padding:0px;
+}
+.but-profi{
+    position: relative;
+    display: inline-block;
+}
+.calendrier_navcol{
+    flex: 1;
+
+}
+.calendrier_navcol img{
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    margin-bottom: -12px;
+}
+.affich_date{
+    flex: 2;
+    margin-bottom: -12px;
+}
+.profi2{
+    display: none;
+    position: absolute;
+    background-color: rgba(152, 152, 152, 0.587);
+    min-width: 150px;
+}
+.profi2 a{
+    color: rgba(255, 255, 255, 0.582);
+    padding: 15px 20px;
+    text-decoration:solid;
+    display: block;
+    border-radius: 5px 5px 5px 5px;
+}
+.profi2 a:hover{
+    background-color:  rgba(55, 50, 73, 0.86);
+}
+.profi1:hover .profi2{
+    display: block;
+    border-radius: 5px 5px 5px 5px;
+}
+.but-profi:hover::after{
+    width: 100%;
+}
+
+
+.imageinsert{
+    position: relative;
+    top: 32px;
+    left: 42px;
+}
+.imginput{
+    background-color: rgba(253, 253, 253, 0.056);
+    color: rgba(255, 255, 255, 0.796);
+}
+
+.discripprof{
+    display: flex;
+    height: 120px;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+  } 
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  } 
+  ::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  }
+  
+  /*****/
+  .input1:hover{
+    background-color: rgb(94, 210, 135);
+}
+.form-control{
+    background-color: rgba(253, 253, 253, 0.056);
+    border: none;
+}
+.form-control:hover{
+    background-color: rgba(253, 253, 253, 0.056);
+    color: white;
+}

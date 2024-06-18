@@ -1,0 +1,451 @@
+
+.sectionone{
+    width: 100%;
+    height: 220px;
+    margin-top: 80px;
+    background: linear-gradient(to bottom right, rgb(50, 50, 187), rgb(128, 31, 167));
+    display: flex;
+}
+.Accueiltitle{
+    color: #ffffffe8;
+    font-size: 20px;
+    text-decoration: underline;
+    font-style: italic;
+    position: relative;
+    left: 12%;
+    top: 10%;
+    width: 450px;
+}
+.cadretime{
+    background-color: #f7f7f7f6;
+    width: 30%;
+    height: 50px;
+    position: relative;
+    left: 24%;
+    top: 25%;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1775);
+    display: flex;
+}
+.imgtime{
+    width: 40px;
+    background-image:url(../../image/calendrier.png);
+    background-size:cover;
+    height: 40px;
+    margin: 6px;
+    margin-left: 10px;
+}
+
+.timepalce{
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.ulnotf{
+    width: 100%;
+    margin-left: -3%;
+}
+.palcenotification{
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    background-color: none;
+    background-color: #1d41b842;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+.sectiontwo{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.welcomeplace{
+    width: 100%;
+    height: 200px;
+    background-color: #e4e0e0;
+    border: 1px solid rgba(54, 54, 54, 0.712);
+    border-radius: 8px;
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    padding: 5px;
+}
+.textewelcome{
+    flex: 6;
+    margin-right: 10px;
+    padding: 30px;
+}
+.textewelcome h3{
+    color:#2d6ed1;
+    font-size: 34px;
+}
+.imgwelcome{
+    flex: 2;
+    background-color: aqua;
+}
+
+
+.notf-date{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: -55px;
+    margin-bottom: 30px;
+}
+.notifacationplace{
+    flex: 1;
+    margin-right: 10px;
+    background-color: #83838380;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 8px;
+}
+.dateplace{
+    flex: 1;
+    margin-left: 10px;
+    background-color: #83838380;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 8px;
+}
+
+
+.taskespalce{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+.emploi{
+    flex: 1;
+    margin-right: 10px;
+    background-color: #1d41b8;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 8px;
+}
+.profil{
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #b8ae1d;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 8px;
+}
+.module-note{
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #1db85e;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 8px;
+}
+.etud-absn{
+    flex: 1;
+    margin-left: 10px;
+    background-color: #b81d1d;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 8px;
+}
+
+
+.emploiplace{
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background-color: #83838380;
+    border: 1px solid rgb(54, 54, 54);
+}
+.ulnotf{
+    list-style: none;
+}
+
+.iceon-name{
+    display: flex;
+    height: 65%;
+    align-items: center;
+}
+.iceon-name p{
+    font-size: 20px;
+    color: white ;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+
+.imgEmploi, .imgProfil, .imgModulenote, .imgEtudinatAbsence{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.imgEmploi{
+    margin-left: 40%;
+}
+.imgProfil{
+    margin-left: 45%;
+}
+.imgModulenote{
+    margin-left: 5%;
+}
+.linediv1{
+    height: 1px;
+    background-color:rgba(54, 54, 54, 0.432);
+}
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.final a, .final h2{
+    font-size: 18px;
+    color: white ;
+    margin-top: 8px;
+}
+.final h2{
+    position: relative;
+    left: 20%;
+}
+.final a{
+    position: relative;
+    right: 25%;
+}
+
+
+
+.linediv{
+    height: 1px;
+    background-color: rgba(54, 54, 54, 0.432);
+    position: relative;
+    bottom: 16px;
+}
+
+
+.notifacationplace p, .dateplace p , .emploiplace p{
+    color: #ffffffe8;
+    font-size: 20px;
+    background-color: rgba(175, 170, 170, 0.432);
+    border-radius: 8px 8px 0 0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notifactionfinal, .Datefinal{
+    height: 88%;
+    position: relative;
+    bottom: 16px;
+}
+
+
+
+
+
+
+.container{
+    margin-top: -10px;
+}
+.schedule-table{
+    background-color: #1d41b8;
+}
+
+.schedule-table table thead tr {
+    background: #86d4f5;
+    }
+    .schedule-table table thead th {
+    padding: 12*5px 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    position: relative;
+    border: 0;
+    }
+    .schedule-table table thead th:before {
+    content: "";
+    width: 3px;
+    height: 30px;
+    position: absolute;
+    right: -1px;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+    .schedule-table table thead th.last:before {
+    content: none;
+    }
+    .schedule-table table tbody td {
+    vertical-align: middle;
+    border: 1px solid #e2edf8;
+    font-weight: 500;
+    padding: 5px;
+    text-align: center;
+    }
+    .schedule-table table tbody td.day {
+    font-size: 20px;
+    font-weight: 600;
+    background: #ffffff;
+    border: 1px solid #e4e4e4;
+    position: relative;
+    transition: all 0.3s linear 0s;
+    min-width: 165px;
+    }
+    .schedule-table table tbody td.active {
+    position: relative;
+    z-index: 10;
+    transition: all 0.3s linear 0s;
+    min-width: 170px;
+    }
+    .schedule-table table tbody td.active h4 {
+    font-weight: 700;
+    color: #000;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    }
+    .schedule-table table tbody td.active p {
+    font-size: 12px;
+    line-height: normal;
+    margin-bottom: 0;
+    background-color: white;
+    height: 30px;
+    color: black;
+    width: 60%;
+    margin-left: 20%;
+    }
+    .schedule-table table tbody td .hover h4 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    }
+    .schedule-table table tbody td .hover p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: normal;
+    background-color:#86d4f5;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    }
+    .schedule-table table tbody td.active::before {
+    position: absolute;
+    content: "";
+    min-width: 100%;
+    min-height: 100%;
+    transform: scale(0);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: all 0.3s linear 0s;
+    
+    }
+    .schedule-table table tbody td .hover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 120%;
+    height: 120%;
+    transform: translate(-50%, -50%) scale(0.8);
+    z-index: 99;
+    background: #86d4f5;
+    border-radius: 0.25rem;
+    padding: 25px 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+    }
+    .schedule-table table tbody td.active:hover .hover {
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+    opacity: 1;
+    }
+    .schedule-table table tbody td.day:hover {
+    background: #86d4f5;
+    color: #fff;
+    border: 1px solid #86d4f5;
+    }
+
+
+
+
+    @media screen and (max-width: 1199px) {
+    .schedule-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    }
+    .schedule-table table thead th {
+    padding: 25px 40px;
+    }
+    .schedule-table table tbody td {
+    padding: 20px;
+    }
+    .schedule-table table tbody td.active h4 {
+    font-size: 18px;
+    }
+    .schedule-table table tbody td.active p {
+    font-size: 15px;
+    }
+    .schedule-table table tbody td.day {
+    font-size: 20px;
+    }
+    .schedule-table table tbody td .hover {
+    padding: 15px 0;
+    }
+    .schedule-table table tbody td .hover span {
+    font-size: 17px;
+    }
+    }
+    @media screen and (max-width: 991px) {
+    .schedule-table table thead th {
+    font-size: 18px;
+    padding: 20px;
+    }
+    .schedule-table table tbody td.day {
+    font-size: 18px;
+    }
+    .schedule-table table tbody td.active h4 {
+    font-size: 17px;
+    }
+    }
+    @media screen and (max-width: 767px) {
+    .schedule-table table thead th {
+    padding: 15px;
+    }
+    .schedule-table table tbody td {
+    padding: 15px;
+    }
+    .schedule-table table tbody td.active h4 {
+    font-size: 16px;
+    }
+    .schedule-table table tbody td.active p {
+    font-size: 14px;
+    }
+    .schedule-table table tbody td .hover {
+    padding: 10px 0;
+    }
+    .schedule-table table tbody td.day {
+    font-size: 18px;
+    }
+    .schedule-table table tbody td .hover span {
+    font-size: 15px;
+    }
+    }
+    @media screen and (max-width: 575px) {
+    .schedule-table table tbody td.day {
+    min-width: 135px;
+    }
+    }

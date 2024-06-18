@@ -1,0 +1,643 @@
+.filierenavbar{
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 20px;
+  height: 180px;
+  border-radius: 4px;
+  background-color: rgba(253, 253, 253, 0.056);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 7px;
+  overflow-x: auto;
+}
+.Etudinfo{
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 20px;
+  display: flex;
+}
+.Etudinfo1{
+  background-color: rgb(43, 35, 66);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  margin-right: 10px;
+  height: 100%;
+}
+.Etudinfo2{
+  background-color: rgb(43, 35, 66);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.cherchestudent{
+  background-color: rgba(253, 253, 253, 0.056);
+  height: 300px;
+  margin: 20px 5px 30px 5px;
+  border-radius: 4px;
+}
+.infstud{
+  background-color: rgba(253, 253, 253, 0.056);
+  height: 280px;
+  margin: 20px 5px 20px 5px;
+  border-radius: 4px;
+}
+
+
+.ulfliere{
+  padding: 0px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.ulfliere li{
+  list-style: none;
+}
+.ulfliere li .button_mcp{
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  margin: 5px;
+  background-color: #0eb6e0;
+
+  width: 19%;
+  padding: 10px;
+  width: 200px;
+}
+.ulfliere .Nmod{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(240, 230, 230, 0.877);
+  height: 30px;
+  margin-top: 5px;
+}
+.ulfliere .FLmod{
+  height: 10px;
+  margin-bottom: 5px;
+}
+.ulfliere .FLmod ,.ulfliere .SMmod{
+  font-size: 15px;
+  color: rgba(240, 230, 230, 0.877);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_mcp{
+  background-color: #0eb6e000;
+  border: none;
+}
+
+
+
+
+
+
+
+
+.titretab{
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 10px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(43, 119, 226);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.titretab p{
+  color: rgba(255, 255, 255, 0.757);
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 150px;
+  text-decoration: initial;
+}
+
+
+
+
+
+
+.partiem{
+  width: 100%;
+  padding:8px;
+  margin: top 5px;
+}
+#dtBasicExample{
+  width: 100%;
+  position: relative;
+  top: 10px;
+  margin-bottom: 9px;
+}
+#dtBasicExample thead{
+  background-color: rgba(0, 254, 123, 0.733);
+}
+#dtBasicExample tbody tr{
+  background-color: rgba(253, 253, 253, 0.089);
+  color: #fff;
+}
+#dtBasicExample tbody tr td{
+  padding: 10px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+#dtBasicExample thead tr th{
+  color:rgba(255, 255, 255, 0.781);
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 6px;
+} 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+
+
+
+
+
+
+.imgprof2,.infte{
+  display: inline-block;
+}
+.infte .colomn{
+  display: flex;
+}
+
+.infte h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  width: 90px;
+  margin-left: 5px;
+}
+
+.infte p {
+  margin-top: 7px;
+  font-size: 16px;
+}
+.p11{
+  position: relative;
+  right: 35px;
+}
+.h222{
+    position: relative;
+    left: 20px;
+}
+.imgprof2{
+  width: 100px;
+  height: 120px;
+  background-color: rgb(32, 32, 32);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.349) ;
+  position: relative;
+  left: 5%;
+}
+.infte{
+  position: relative;
+  left: 5%;
+  top: 8%;
+}
+.infte ul li{
+  list-style: none;
+  margin-bottom: -12px;
+}
+.infte .colomn h2{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.757);
+  margin-right: 10px;
+  font-style: inherit;
+}
+.infte .colomn p{
+  font-size: 16px;
+  color: rgba(230, 219, 219, 0.841);
+  margin-top: 10px;
+  font-style: italic;
+}
+.modifierinfetud{
+  display: flex;
+  width: 40%;
+  height: 50px;
+  margin-left: 60%;
+  margin-top: 8%;
+}
+.valideinf,.modifierinf{
+  flex: 1;
+  margin: 5px;
+  background-color: rgba(0, 254, 123, 0.733);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.modifierinf{
+  background-color: rgba(254, 0, 0, 0.733);
+}
+.valideinf p,.modifierinf p{
+  font-size: 15px;
+  color: #fff;
+  margin-top: 4px;  
+}
+
+
+
+
+
+.btn-primary{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 20px;
+  background-color: #2499b69a;
+  border: none;
+  box-shadow: 0 0 2px rgba(0,0,0,3);
+}
+.btn-primary:hover{
+  background-color: #cad9dd9a;
+  border:#2499b69a;
+  box-shadow: 0 0 2px rgba(0,0,0,8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filierenavbar{
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 20px;
+  height: 180px;
+  border-radius: 4px;
+  background-color: rgba(253, 253, 253, 0.056);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 7px;
+  overflow-x: auto;
+}
+.Etudinfo{
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 20px;
+  display: flex;
+}
+.Etudinfo1{
+  background-color: rgb(43, 35, 66);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  margin-right: 10px;
+  height: 100%;
+}
+.Etudinfo2{
+  background-color: rgb(43, 35, 66);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.cherchestudent{
+  background-color: rgba(253, 253, 253, 0.056);
+  height: 300px;
+  margin: 20px 5px 10px 5px;
+  border-radius: 4px;
+}
+
+
+.ulfliere{
+  padding: 0px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.ulfliere li{
+  list-style: none;
+}
+.ulfliere li .button_mcp{
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  margin: 5px;
+  background-color: #0eb6e0;
+
+  width: 19%;
+  padding: 10px;
+  width: 200px;
+}
+.ulfliere .Nmod{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(240, 230, 230, 0.877);
+  height: 30px;
+  margin-top: 5px;
+}
+.ulfliere .FLmod{
+  height: 10px;
+  margin-bottom: 5px;
+}
+.ulfliere .FLmod ,.ulfliere .SMmod{
+  font-size: 15px;
+  color: rgba(240, 230, 230, 0.877);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_mcp{
+  background-color: #0eb6e000;
+  border: none;
+}
+
+
+
+
+
+
+
+
+.titretab{
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 10px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(43, 119, 226);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.titretab p{
+  color: rgba(255, 255, 255, 0.757);
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 150px;
+  text-decoration: initial;
+}
+
+
+
+
+
+
+.partiem{
+  width: 100%;
+  padding:8px;
+  margin: top 5px;
+}
+#dtBasicExample{
+  width: 100%;
+  position: relative;
+  top: 10px;
+  margin-bottom: 9px;
+}
+#dtBasicExample thead{
+  background-color: rgba(0, 254, 123, 0.733);
+}
+#dtBasicExample tbody tr{
+  background-color: rgba(253, 253, 253, 0.089);
+  color: #fff;
+}
+#dtBasicExample tbody tr td{
+  padding: 10px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+#dtBasicExample thead tr th{
+  color:rgba(255, 255, 255, 0.781);
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 6px;
+} 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+
+
+
+
+
+
+.imgprof2,.infte{
+  display: inline-block;
+}
+.infte .colomn{
+  display: flex;
+}
+
+.infte h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  width: 90px;
+  margin-left: 5px;
+}
+
+.infte p {
+  margin-top: 7px;
+  font-size: 16px;
+}
+.p11{
+  position: relative;
+  right: 35px;
+}
+.h222{
+    position: relative;
+    left: 20px;
+}
+.imgprof2{
+  width: 100px;
+  height: 120px;
+  background-color: rgb(32, 32, 32);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.349) ;
+  position: relative;
+  left: 5%;
+}
+.infte{
+  position: relative;
+  left: 5%;
+  top: 8%;
+}
+.infte ul li{
+  list-style: none;
+  margin-bottom: -12px;
+}
+.infte .colomn h2{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.757);
+  margin-right: 10px;
+  font-style: inherit;
+}
+.infte .colomn p{
+  font-size: 16px;
+  color: rgba(230, 219, 219, 0.841);
+  margin-top: 10px;
+  font-style: italic;
+}
+.modifierinfetud{
+  display: flex;
+  width: 30%;
+  height: 50px;
+  margin-left: 65%;
+  margin-top: 8%;
+}
+/*
+.valideinf{
+  flex: 1;
+  margin: 5px;
+  background-color: rgba(0, 254, 123, 0.733);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.valideinf p{
+  font-size: 15px;
+  color: #fff;
+  margin-top: 4px;  
+}
+*/
+.formmodifier{
+  background-color: rgba(254, 0, 0, 0.733);
+  flex: 1;
+  margin: 5px;
+  border-radius: 5px;
+}
+.modifierinf{
+  margin: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+}
+.btnmodifier{
+  background-color: rgba(254, 0, 0, 0);
+  border: none;
+  font-size: 15px;
+  color: #fff;
+}
+
+
+
+.btn-primary{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 20px;
+  background-color: #2499b69a;
+  border: none;
+  box-shadow: 0 0 2px rgba(0,0,0,3);
+}
+.btn-primary:hover{
+  background-color: #cad9dd9a;
+  border:#2499b69a;
+  box-shadow: 0 0 2px rgba(0,0,0,8);
+}
+.infstud{
+  background-color: rgba(253, 253, 253, 0.056);
+  height: 290px;
+  margin: 10px 5px 10px 5px;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.infte1{
+  width: 100%;
+  height: 90px;
+}
+.infte1 ul{
+    list-style: none;
+}
+.colomn1{
+  display: flex;
+}
+.infte1 .colomn1 h2{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.757);
+  margin-right: 10px;
+  font-style: inherit;
+
+}
+.infte1 .colomn1 p{
+  font-size: 16px;
+  color: rgba(230, 219, 219, 0.841);
+  margin-top: 2px;
+  font-style: italic;
+}
+.modifierabs div{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.chngeabs{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.757);
+  margin-right: 10px;
+  font-style: inherit;
+}
+.chngeabs1{
+  background-color: rgba(255, 255, 255, 0.256);
+  color: #fff;
+}
+.btnmodf{
+  position: relative;
+  top: 15px;
+  left: 350px;
+  background-color: rgba(254, 0, 0, 0.733);
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+}
